@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: alberk/hexo-deploy-github-pages-action@main
+      uses: alberk/hexo-deploy-github-pages-action@master
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
